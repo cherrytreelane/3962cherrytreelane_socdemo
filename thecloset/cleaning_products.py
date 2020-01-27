@@ -4,13 +4,13 @@ import os.path
 from pathlib import Path
 
 def getDrano():
-    print("Drano")
+    return "Drano"
 
 def getClorox():
-    print("Clorox")
+    return "Clorox"
 
 def getRaid():
-    print("Raid")
+    return "Raid"
 
 def getLysol():
-    print("Lysol")
+    return "Lysol"
