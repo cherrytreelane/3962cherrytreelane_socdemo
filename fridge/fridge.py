@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import os.path
+from pathlib import Path
+
 def getMilk():
     print("Milk")
 
@@ -25,7 +28,7 @@ def getLysol():
     print("Lysol")
 
 def main():
-    print("The fridge contains:")
+    print("The %s contains:" % Path(os.path.basename(__file__)).stem)
     getMilk()
     getDrano()
     getEggs()
