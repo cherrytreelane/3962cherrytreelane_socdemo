@@ -8,16 +8,16 @@ sys.path.append('..')
 from thecloset.cleaning_products import *
 
 def getMilk():
-    print("Milk")
+    return "Milk"
 
 def getEggs():
-    print("Eggs")
+    return "Eggs"
 
 def getVegetables():
-    print("Vegetables")
+    return "Vegetables"
 
 def getButter():
-    print("Butter")
+    return "Butter"
 
 def cleanTop():
     print("You cleaned the top of the fridge using " + getClorox())
@@ -27,10 +27,10 @@ def cleanShelves():
 
 def main():
     print("The %s contains:" % Path(os.path.basename(__file__)).stem)
-    getMilk()
-    getEggs()
-    getVegetables()
-    getButter()
+    print(getMilk())
+    print(getEggs())
+    print(getVegetables())
+    print(getButter())
     print("Now let's clean the fridge!")
     cleanTop()
     cleanShelves()

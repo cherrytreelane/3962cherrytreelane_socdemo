@@ -4,15 +4,15 @@ import os.path
 from pathlib import Path
 
 def getBed():
-    print("Bed")
+    return "Bed"
 
 def getNightStand():
-    print("Night stand")
+    return "Night stand"
 
 def main():
     print("The %s contains:" % Path(os.path.basename(__file__)).stem)
-    getBed()
-    getNightStand()
+    print(getBed())
+    print(getNightStand())
 
 if __name__ == "__main__":
     main()
