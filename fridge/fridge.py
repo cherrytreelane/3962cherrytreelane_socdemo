@@ -4,28 +4,28 @@ import os.path
 from pathlib import Path
 
 def getMilk():
-    print("Milk")
+    return "Milk"
 
 def getDrano():
-    print("Drano")
+    return "Drano"
 
 def getEggs():
-    print("Eggs")
+    return "Eggs"
 
 def getClorox():
-    print("Clorox")
+    return "Clorox"
 
 def getVegetables():
-    print("Vegetables")
+    return "Vegetables"
 
 def getRaid():
-    print("Raid")
+    return "Raid"
 
 def getButter():
-    print("Butter")
+    return "Butter"
 
 def getLysol():
-    print("Lysol")
+    return "Lysol"
 
 def cleanTop():
     print("You cleaned the top of the fridge using " + getClorox())
@@ -35,14 +35,14 @@ def cleanShelves():
 
 def main():
     print("The %s contains:" % Path(os.path.basename(__file__)).stem)
-    getMilk()
-    getDrano()
-    getEggs()
-    getClorox()
-    getVegetables()
-    getRaid()
-    getButter()
-    getLysol()
+    print(getMilk())
+    print(getDrano())
+    print(getEggs())
+    print(getClorox())
+    print(getVegetables())
+    print(getRaid())
+    print(getButter())
+    print(getLysol())
     print("Now let's clean the fridge!")
     cleanTop()
     cleanShelves()

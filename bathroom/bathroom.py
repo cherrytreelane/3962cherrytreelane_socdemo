@@ -4,19 +4,19 @@ import os.path
 from pathlib import Path
 
 def getToilet():
-    print("Toilet")
+    return "Toilet"
 
 def getShower():
-    print("Shower")
+    return "Shower"
 
 def getSink():
-    print("Sink")
+    return "Sink"
 
 def main():
     print("The %s contains:" % Path(os.path.basename(__file__)).stem)
-    getToilet()
-    getShower()
-    getSink()
+    print(getToilet())
+    print(getShower())
+    print(getSink())
 
 if __name__ == "__main__":
     main()
