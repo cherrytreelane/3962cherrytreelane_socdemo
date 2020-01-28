@@ -3,6 +3,6 @@ Make the separation of concerns concept easy to understand by comparing it to a 
 
 ![](http://www.simpleimageresizer.com/_uploads/photos/7ea0af84/welcome-mat_50.jpg)
 
-*Welcome to 3962 Cherry Tree Lane! Our fridge is a little messy right now because our lazy son wants to do as little work as possible...*
+*"Welcome to our humble abode on 3962 Cherry Tree Lane! Our fridge is a little messy right now because our lazy son wants to do as little work as possible..." - Mr and Mrs Goodcoder*
 
 ![](https://thebojansblog.files.wordpress.com/2018/04/separation-of-concerns-feb-2013.png)
