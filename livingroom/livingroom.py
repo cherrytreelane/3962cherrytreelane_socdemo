@@ -4,15 +4,15 @@ import os.path
 from pathlib import Path
 
 def getCouch():
-    print("Couch")
+    return "Couch"
 
 def getCoffeeTable():
-    print("Coffee table")
+    return "Coffee table"
 
 def main():
     print("The %s contains:" % Path(os.path.basename(__file__)).stem)
-    getCouch()
-    getCoffeeTable()
+    print(getCouch())
+    print(getCoffeeTable())
 
 if __name__ == "__main__":
     main()
