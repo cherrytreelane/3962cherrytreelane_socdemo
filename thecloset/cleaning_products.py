@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-import os.path
-from pathlib import Path
-
 def getDrano():
     return "Drano"
 
